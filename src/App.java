@@ -1,10 +1,11 @@
 import java.util.Set;
 
+import controllers.ContactoController;
 import controllers.Sets;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+       /* System.out.println("Hello, World!");
         Sets sets = new Sets();
         System.out.println("HASHSET");
         runHashSet(sets);
@@ -15,7 +16,8 @@ public class App {
         System.out.println("TREESET CON COMPARADOR");
         runTreeSetConComparador(sets);
         System.out.println("TREESET CON COMPARADOR DESCENDENTE");
-        runTreeSetConComparadorDescendente(sets);
+        runTreeSetConComparadorDescendente(sets);*/
+        ContactoController Cc = new ContactoController();
     }
     public static void runHashSet(Sets sets){
         Set<String> palabra= sets.construirHashSet();
