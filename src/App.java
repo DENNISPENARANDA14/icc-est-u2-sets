@@ -1,6 +1,7 @@
 import java.util.Set;
 
 import controllers.ContactoController;
+import controllers.Ejercicios;
 import controllers.Sets;
 
 public class App {
@@ -17,7 +18,10 @@ public class App {
         runTreeSetConComparador(sets);
         System.out.println("TREESET CON COMPARADOR DESCENDENTE");
         runTreeSetConComparadorDescendente(sets);*/
-        ContactoController Cc = new ContactoController();
+        
+        //ContactoController Cc = new ContactoController();
+
+        Ejercicios ej = new Ejercicios();
     }
     public static void runHashSet(Sets sets){
         Set<String> palabra= sets.construirHashSet();
